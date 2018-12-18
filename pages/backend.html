@@ -41,7 +41,7 @@
 </ul>
 <h2 id="mapping-out-a-request">Mapping out a request</h2>
 <p>Let’s make all of this a bit more concrete, by following an example of the main steps that happen when a client makes a request to the server.</p>
-<p>1. Alice is shopping on SuperCoolShop.com. She clicks on a picture of a cover for her smartphone, and that click event makes a GET request to <code>http://www.SuperCoolShop.com/products/66432</code>.</p>
+<p>1. Alice is shopping on SuperCoolShop.com. She clicks on a picture of a cover for her smartphone.</p>
 <p>Remember, GET describes the kind of request (the client is just asking for data, not changing anything). The URI (uniform resource identifier) <code>/products/66432</code> specifies that the client is looking for more information about a product, and that product, has an id of 66432.</p>
 <p>SuperCoolShop has an huge number of products, and many different categories for filtering through them, so the actual URI would be more complicated than this. But this is the general principle for how requests and resource identifiers work.</p>
 <p>2. Alice’s request travels across the internet to one of SuperCoolShop’s servers. This is one of the slower steps in the process, because the request cannot go faster than the speed of light, and it might have a long distance to travel. For this reason, major websites with users all over the world will have many different servers, and they will direct users to the server that is closest to them!</p>

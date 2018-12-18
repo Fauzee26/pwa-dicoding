@@ -1,7 +1,7 @@
 {
-    "name": "My First PWA",
-    "short_name": "My PWA",
-    "description": "Aplikasi PWA pertama saya",
+    "name": "Artikel Web",
+    "short_name": "Artikel",
+    "description": "Submission 1 Dicoding PWA",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#265fd8",
